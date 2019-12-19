@@ -6,9 +6,9 @@
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 _indList = new Array();
-_indList[0] = ([ "Google","Bing","Baidu", "Sogou","https://www.google.com/search?q=", "https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "http://www.sogou.com/sogou?query="]);
+_indList[0] = ([ "Google","Baidu","Bing", "Sogou","https://www.google.com/search?q=", "http://www.baidu.com/s?wd=","https://cn.bing.com/search?q=", "http://www.sogou.com/sogou?query="]);
 _indList[1] = (["Scholar","Scholar","CNKI搜索", "百度学术", 
-"https://xues.glgoo.com/scholar?hl=zh-CN&q=", "http://www.tmeishi.com/xs/index.php?hl=zh-CN&q=", 
+"https://scholar.google.com/scholar?hl=en&q=", "https://xues.glgoo.com/scholar?hl=zh-CN&q=", 
 "http://scholar.cnki.net/result.aspx?rt=Journal&rl=zh&q=", "http://xueshu.baidu.com/s?wd="]);
 _indList[2] = (["百度新闻", "新浪新闻","微信搜索","微博搜索",
  "http://news.baidu.com/ns?word=","http://search.sina.com.cn/?range=all&c=news&sort=time&q=","http://weixin.sogou.com/weixin?type=2&query=","http://s.weibo.com/weibo/"]);
