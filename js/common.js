@@ -6,16 +6,15 @@
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 _indList = new Array();
-_indList[0] = ([ "Google","Baidu","Bing", "Sogou","https://www.google.com/search?q=", "http://www.baidu.com/s?wd=","https://cn.bing.com/search?q=", "http://www.sogou.com/sogou?query="]);
-_indList[1] = (["Scholar","Scholar","CNKI搜索", "百度学术", 
+_indList[0] = ([ "Google","Bing", "Yahoo","Baidu","https://www.google.com/search?q=","https://cn.bing.com/search?q=", "https://search.yahoo.com/search?p=", "http://www.baidu.com/s?wd="]);
+_indList[1] = ([ "Yandex","Duck","360", "Sogou","https://yandex.com/search/?text=", "https://duckduckgo.com/?q=","https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q=", "http://www.sogou.com/sogou?query="]);
+_indList[2] = (["Scholar","Scholar","CNKI搜索", "百度学术", 
 "https://scholar.google.com/scholar?hl=en&q=", "https://xues.glgoo.com/scholar?hl=zh-CN&q=", 
 "http://scholar.cnki.net/result.aspx?rt=Journal&rl=zh&q=", "http://xueshu.baidu.com/s?wd="]);
-_indList[2] = (["百度新闻", "新浪新闻","微信搜索","微博搜索",
- "http://news.baidu.com/ns?word=","http://search.sina.com.cn/?range=all&c=news&sort=time&q=","http://weixin.sogou.com/weixin?type=2&query=","http://s.weibo.com/weibo/"]);
 _indList[3] = (["百度百科", "Wiki英文","wikiHow","百度文库", 
 "http://baike.baidu.com/item/", "http://en.wikipedia.org/wiki/","http://zh.wikihow.com/","https://wenku.baidu.com/search?word="]);
-_indList[4] = ([ "谷歌翻译","百度翻译","有道词典","英英词典",
- "https://translate.google.cn/#en/zh-CN/","http://fanyi.baidu.com/translate#zh/en/", "http://dict.youdao.com/search?q=","http://www.thefreedictionary.com/"]);
+_indList[4] = ([ "谷歌翻译","百度翻译","有道词典","WEBSTER",
+ "https://translate.google.cn/#en/zh-CN/","http://fanyi.baidu.com/translate#zh/en/", "http://dict.youdao.com/search?q=","https://www.merriam-webster.com/dictionary/"]);
 _indList[5] = (["淘宝","京东", "天猫", "当当", 
 "https://s.taobao.com/search?q=","http://search.jd.com/Search?enc=utf-8&keyword=","http://list.tmall.com/search_product.htm?_input_charset=utf-8&q=","http://search.dangdang.com/?key="]);
 _indList[6] = (["PDB","Molbase", "EBI", "ChemSpider", 
