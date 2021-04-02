@@ -6,7 +6,7 @@
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 _indList = new Array();
-_indList[0] = ([ "Google","Bing", "Yahoo","Baidu","https://www.google.com/search?q=","https://cn.bing.com/search?q=", "https://search.yahoo.com/search?p=", "http://www.baidu.com/s?wd="]);
+_indList[0] = ([ "Bing","Google", "Yahoo","Baidu","https://cn.bing.com/search?q=","https://www.google.com/search?q=", "https://search.yahoo.com/search?p=", "http://www.baidu.com/s?wd="]);
 _indList[1] = ([ "Yandex","Duck","360", "Sogou","https://yandex.com/search/?text=", "https://duckduckgo.com/?q=","https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q=", "http://www.sogou.com/sogou?query="]);
 _indList[2] = (["Scholar","Scholar","CNKI搜索", "百度学术", 
 "https://scholar.google.com/scholar?hl=en&q=", "https://xues.glgoo.com/scholar?hl=zh-CN&q=", 
