@@ -6,19 +6,20 @@
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 _indList = new Array();
-_indList[0] = ([ "Bing","Google", "Yahoo","Baidu","https://cn.bing.com/search?q=","https://www.google.com/search?q=", "https://search.yahoo.com/search?p=", "http://www.baidu.com/s?wd="]);
-_indList[1] = ([ "Yandex","Duck","360", "Sogou","https://yandex.com/search/?text=", "https://duckduckgo.com/?q=","https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q=", "http://www.sogou.com/sogou?query="]);
-_indList[2] = (["Scholar","Scholar","CNKI搜索", "百度学术", 
-"https://scholar.google.com/scholar?hl=en&q=", "https://xues.glgoo.com/scholar?hl=zh-CN&q=", 
-"http://scholar.cnki.net/result.aspx?rt=Journal&rl=zh&q=", "http://xueshu.baidu.com/s?wd="]);
-_indList[3] = (["百度百科", "Wiki英文","wikiHow","百度文库", 
-"http://baike.baidu.com/item/", "http://en.wikipedia.org/wiki/","http://zh.wikihow.com/","https://wenku.baidu.com/search?word="]);
+_indList[0] = ([ "Google","Bing", "Yahoo","Baidu",
+"https://www.google.com/search?q=","https://cn.bing.com/search?q=", "https://search.yahoo.com/search?p=", "http://www.baidu.com/s?wd="]);
+_indList[1] = ([ "Yandex","Duck","360", "Sogou",
+"https://yandex.com/search/?text=", "https://duckduckgo.com/?q=","https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q=", "http://www.sogou.com/sogou?query="]);
+_indList[2] = (["Scholar","Bing学术","CNKI学术", "百度学术", 
+"https://scholar.google.com/scholar?hl=en&q=", "https://cn.bing.com/academic/search?q=", "http://scholar.cnki.net/result.aspx?rt=Journal&rl=zh&q=", "http://xueshu.baidu.com/s?wd="]);
+_indList[3] = (["百科", "文库","Drug","Wiki", 
+"http://baike.baidu.com/item/", "https://wenku.baidu.com/search?word=","https://go.drugbank.com/unearth/q?utf8=%E2%9C%93&searcher=drugs&query=","http://en.wikipedia.org/wiki/"]);
 _indList[4] = ([ "谷歌翻译","百度翻译","有道词典","WEBSTER",
  "https://translate.google.cn/#en/zh-CN/","http://fanyi.baidu.com/translate#zh/en/", "http://dict.youdao.com/search?q=","https://www.merriam-webster.com/dictionary/"]);
 _indList[5] = (["淘宝","京东", "天猫", "当当", 
 "https://s.taobao.com/search?q=","http://search.jd.com/Search?enc=utf-8&keyword=","http://list.tmall.com/search_product.htm?_input_charset=utf-8&q=","http://search.dangdang.com/?key="]);
-_indList[6] = (["PDB","Molbase", "EBI", "ChemSpider", 
-"http://www.rcsb.org/pdb/explore/explore.do?structureId=","http://chanpin.molbase.cn/search/?search_keyword=","https://www.ebi.ac.uk/ebisearch/search.ebi?db=allebi&requestFrom=searchBox&query=","http://www.chemspider.com/Chemical-Structure.236.html?rid="]);
+_indList[6] = (["PubChem","PubMed", "PDB", "AlphaFlod", 
+"https://pubchem.ncbi.nlm.nih.gov/#query=","https://pubmed.ncbi.nlm.nih.gov/?term=","https://www.rcsb.org/structure/","https://alphafold.ebi.ac.uk/search/text/"]);
 _usrslt = 0;
 
 
@@ -94,7 +95,7 @@ function openTag(_idstr, _srhstr) {
 		$("#iptsrh").focus();
 		return false;
 	}
-	if(_usrslt==2 && _idstr==5){_srhstr=utfToGbk(_srhstr,_indList[_usrslt][_idstr])}
+	if(_usrslt==5 && _idstr==5){_srhstr=utfToGbk(_srhstr,_indList[_usrslt][_idstr])}
 	else{		
 		_srhstr = encodeURI(_srhstr);
 	}
