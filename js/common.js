@@ -8,8 +8,8 @@
 _indList = new Array();
 _indList[0] = ([ "Google","Bing", "Yahoo","Baidu",
 "https://www.google.com/search?q=","https://cn.bing.com/search?q=", "https://search.yahoo.com/search?p=", "http://www.baidu.com/s?wd="]);
-_indList[1] = ([ "Yandex","Sogou","360", "CSDN",
-"https://yandex.com/search/?text=", "http://www.sogou.com/sogou?query=","https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q=", "https://so.csdn.net/so/search?q="]);
+_indList[1] = ([ "CSDN","linux","ACS", "Yandex",
+"https://so.csdn.net/so/search?q=", "https://www.runoob.com/?s=","https://pubs.acs.org/action/doSearch?AllField=", "https://yandex.com/search/?text="]);
 _indList[2] = (["Scholar","Bing学术","CNKI学术", "百度学术", 
 "https://scholar.google.com/scholar?hl=en&q=", "https://cn.bing.com/academic/search?q=", "http://scholar.cnki.net/result.aspx?rt=Journal&rl=zh&q=", "http://xueshu.baidu.com/s?wd="]);
 _indList[3] = (["百科", "文库","Drug","Wiki", 
