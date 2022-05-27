@@ -10,10 +10,10 @@ _indList[0] = ([ "Google","Bing", "Yahoo","Baidu",
 "https://www.google.com/search?q=","https://cn.bing.com/search?q=", "https://search.yahoo.com/search?p=", "http://www.baidu.com/s?wd="]);
 _indList[1] = ([ "CSDN","linux","ACS", "Yandex",
 "https://so.csdn.net/so/search?q=", "https://www.runoob.com/?s=","https://pubs.acs.org/action/doSearch?AllField=", "https://yandex.com/search/?text="]);
-_indList[2] = (["Scholar","Bing学术","CNKI学术", "百度学术", 
-"https://scholar.google.com/scholar?hl=en&q=", "https://cn.bing.com/academic/search?q=", "http://scholar.cnki.net/result.aspx?rt=Journal&rl=zh&q=", "http://xueshu.baidu.com/s?wd="]);
-_indList[3] = (["百科", "文库","Drug","Wiki", 
-"http://baike.baidu.com/item/", "https://wenku.baidu.com/search?word=","https://go.drugbank.com/unearth/q?utf8=%E2%9C%93&searcher=drugs&query=","http://en.wikipedia.org/wiki/"]);
+_indList[2] = (["Scholar","Bing学术","Sci-hub", "百度学术", 
+"https://scholar.google.com/scholar?hl=en&q=", "https://cn.bing.com/academic/search?q=", "https://sci-hub.se/", "http://xueshu.baidu.com/s?wd="]);
+_indList[3] = (["知乎", "百科","Drug","Wiki", 
+"https://www.zhihu.com/search?type=content&q=", "http://baike.baidu.com/item/","https://go.drugbank.com/unearth/q?utf8=%E2%9C%93&searcher=drugs&query=","http://en.wikipedia.org/wiki/"]);
 _indList[4] = ([ "谷歌翻译","百度翻译","有道词典","WEBSTER",
  "https://translate.google.cn/#en/zh-CN/","http://fanyi.baidu.com/translate#zh/en/", "http://dict.youdao.com/search?q=","https://www.merriam-webster.com/dictionary/"]);
 _indList[5] = (["淘宝","京东", "天猫", "当当", 
