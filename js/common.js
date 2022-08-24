@@ -6,10 +6,10 @@
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 _indList = new Array();
-_indList[0] = ([ "Bing","Baidu", "CSDN","ACS",
-"https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "https://so.csdn.net/so/search?q=", "https://pubs.acs.org/action/doSearch?AllField="]);
-_indList[1] = ([ "Google","Yahoo","linux", "Yandex",
-"https://www.google.com/search?q=", "https://search.yahoo.com/search?p=","https://www.runoob.com/?s=", "https://yandex.com/search/?text="]);
+_indList[0] = ([ "Bing","Baidu", "Google","ACS",
+"https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "https://www.google.com/search?q=", "https://pubs.acs.org/action/doSearch?AllField="]);
+_indList[1] = ([ "CSDN","Yahoo","linux", "Yandex",
+"https://so.csdn.net/so/search?q=", "https://search.yahoo.com/search?p=","https://www.runoob.com/?s=", "https://yandex.com/search/?text="]);
 _indList[2] = (["Scholar","Bing学术","Sci-hub", "百度学术", 
 "https://scholar.google.com/scholar?hl=en&q=", "https://cn.bing.com/academic/search?q=", "https://sci-hub.se/", "http://xueshu.baidu.com/s?wd="]);
 _indList[3] = (["知乎", "百科","Drug","Wiki", 
