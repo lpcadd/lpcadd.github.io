@@ -6,8 +6,8 @@
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 _indList = new Array();
-_indList[0] = ([ "Bing","Baidu", "Google","谷歌",
-"https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "https://www.google.com/search?q=", "https://dhobi.win/search?q="]);
+_indList[0] = ([ "Bing","Baidu", "Google","Github",
+"https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "https://www.google.com/search?q=", "https://github.com/search?q="]);
 _indList[1] = ([ "CSDN","Yahoo","linux", "Yandex",
 "https://so.csdn.net/so/search?q=", "https://search.yahoo.com/search?p=","https://www.runoob.com/?s=", "https://yandex.com/search/?text="]);
 _indList[2] = (["Scholar","Bing学术","Sci-hub", "百度学术", 
@@ -18,8 +18,8 @@ _indList[4] = ([ "谷歌翻译","百度翻译","有道词典","WEBSTER",
  "https://translate.google.cn/#en/zh-CN/","http://fanyi.baidu.com/translate#zh/en/", "http://dict.youdao.com/search?q=","https://www.merriam-webster.com/dictionary/"]);
 _indList[5] = (["淘宝","京东", "天猫", "当当", 
 "https://s.taobao.com/search?q=","http://search.jd.com/Search?enc=utf-8&keyword=","http://list.tmall.com/search_product.htm?_input_charset=utf-8&q=","http://search.dangdang.com/?key="]);
-_indList[6] = (["PubChem","PubMed", "PDB", "AlphaFlod", 
-"https://pubchem.ncbi.nlm.nih.gov/#query=","https://pubmed.ncbi.nlm.nih.gov/?term=","https://www.rcsb.org/structure/","https://alphafold.ebi.ac.uk/search/text/"]);
+_indList[6] = (["PubChem", "PDB", "JMC","PubMed", 
+"https://pubchem.ncbi.nlm.nih.gov/#query=","https://www.rcsb.org/structure/","https://pubs.acs.org/action/doSearch?AllField=","https://pubmed.ncbi.nlm.nih.gov/?term="]);
 _usrslt = 0;
 
 
