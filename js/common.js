@@ -7,7 +7,7 @@
 }
 _indList = new Array();
 _indList[0] = ([ "Bing","Baidu", "Google","Github",
-"https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "https://www.google.com/search?q=", "https://github.com/search?q="]);
+"https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "https://ditu.amap.com/search?query=", "https://www.google.com/search?q="]);
 _indList[1] = ([ "CSDN","Yahoo","linux", "Yandex",
 "https://so.csdn.net/so/search?q=", "https://search.yahoo.com/search?p=","https://www.runoob.com/?s=", "https://yandex.com/search/?text="]);
 _indList[2] = (["Scholar","Bing学术","Sci-hub", "百度学术", 
