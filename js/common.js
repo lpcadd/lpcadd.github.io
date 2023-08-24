@@ -6,7 +6,7 @@
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 _indList = new Array();
-_indList[0] = ([ "Bing","Baidu", "Google","Github",
+_indList[0] = ([ "Bing","Baidu", "Map","Google",
 "https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "https://ditu.amap.com/search?query=", "https://www.google.com/search?q="]);
 _indList[1] = ([ "CSDN","Yahoo","linux", "Yandex",
 "https://so.csdn.net/so/search?q=", "https://search.yahoo.com/search?p=","https://www.runoob.com/?s=", "https://yandex.com/search/?text="]);
