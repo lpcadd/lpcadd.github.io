@@ -14,8 +14,8 @@ _indList[2] = (["Scholar","Bing学术","Sci-hub", "百度学术",
 "https://xs2.studiodahu.com/scholar?q=", "https://cn.bing.com/academic/search?q=", "https://sci-hub.se/", "http://xueshu.baidu.com/s?wd="]);
 _indList[3] = (["知乎", "百科","Drug","Wiki", 
 "https://www.zhihu.com/search?type=content&q=", "http://baike.baidu.com/item/","https://go.drugbank.com/unearth/q?utf8=%E2%9C%93&searcher=drugs&query=","http://en.wikipedia.org/wiki/"]);
-_indList[4] = ([ "谷歌翻译","百度翻译","有道词典","WEBSTER",
- "https://translate.google.cn/#en/zh-CN/","http://fanyi.baidu.com/translate#zh/en/", "http://dict.youdao.com/search?q=","https://www.merriam-webster.com/dictionary/"]);
+_indList[4] = ([ "百度翻译","谷歌翻译","有道词典","WEBSTER",
+ "https://fanyi.baidu.com/mtpe-individual/multimodal?query=","https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=auto&tl=zh-CN&text=", "http://dict.youdao.com/search?q=","https://www.merriam-webster.com/dictionary/"]);
 _indList[5] = (["淘宝","京东", "天猫", "当当", 
 "https://s.taobao.com/search?q=","http://search.jd.com/Search?enc=utf-8&keyword=","http://list.tmall.com/search_product.htm?_input_charset=utf-8&q=","http://search.dangdang.com/?key="]);
 _indList[6] = (["PubChem", "PDB", "JMC","PubMed", 
