@@ -6,12 +6,12 @@
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 _indList = new Array();
-_indList[0] = ([ "Bing","Baidu", "Map","Google",
-"https://cn.bing.com/search?q=","http://www.baidu.com/s?wd=", "https://ditu.amap.com/search?query=", "https://www.google.com/search?q="]);
-_indList[1] = ([ "CSDN","Yahoo","linux", "Yandex",
-"https://so.csdn.net/so/search?q=", "https://search.yahoo.com/search?p=","https://www.runoob.com/?s=", "https://yandex.com/search/?text="]);
+_indList[0] = ([ "Google","Bing", "Yahoo","Baidu",
+"https://www.google.com/search?q=","https://cn.bing.com/search?q=", "https://search.yahoo.com/search?p=", "http://www.baidu.com/s?wd="]);
+_indList[1] = ([ "Yandex","Ask","CSDN", "Sogou",
+"https://yandex.com/search/?text=", "https://www.ask.com/web?q=","https://so.csdn.net/so/search?q=", "https://www.sogou.com/web?query="]);
 _indList[2] = (["Scholar","Bing学术","Sci-hub", "百度学术", 
-"https://xs2.studiodahu.com/scholar?q=", "https://cn.bing.com/academic/search?q=", "https://sci-hub.se/", "http://xueshu.baidu.com/s?wd="]);
+"https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=", "https://cn.bing.com/academic/search?q=", "https://sci-hub.se/", "http://xueshu.baidu.com/s?wd="]);
 _indList[3] = (["知乎", "百科","Drug","Wiki", 
 "https://www.zhihu.com/search?type=content&q=", "http://baike.baidu.com/item/","https://go.drugbank.com/unearth/q?utf8=%E2%9C%93&searcher=drugs&query=","http://en.wikipedia.org/wiki/"]);
 _indList[4] = ([ "百度翻译","谷歌翻译","有道词典","WEBSTER",
